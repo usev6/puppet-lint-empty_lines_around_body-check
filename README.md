@@ -2,10 +2,8 @@ puppet-lint-empty_lines_around_body-check
 =========================================
 
 A puppet-lint plugin to check for empty lines around bodies of
-* classes
+* classes and defined types
 * conditional blocks (if/elsif/else, unless, case, selectors, ...)
-
-[Actually, the plugin cheats and just looks for emtpy lines after an opening curly brace and before a closing curly brace.]
 
 ## Installation
 
